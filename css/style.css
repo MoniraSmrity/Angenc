@@ -1,0 +1,300 @@
+/* All Common CSS start  */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul ol{
+    list-style-type: none;
+}
+/* All Common CSS end  */
+.navbar{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: 700;
+    color:#fff;
+    font-family: inter;
+    padding: 0 22px;
+}
+.nav-link:hover{
+color:#4756DF;
+}
+.ContactBtn a{
+    padding: 15px 42px;
+    background: #4756DF;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color:#fff;
+    font-family: inter;
+  
+}
+/* Header Part Start  */
+/* Header Part End  */
+/* Banner Part Start  */
+#bannerpart{
+    background: url(../images/agenc-Banner\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bannerOverly{
+    background: rgba(0, 0, 0, 0.62);
+    padding-top: 200px;
+    padding-bottom: 170px;
+  
+}
+.bannertext h1{
+    font-family: inter;
+    font-size: 75px;
+    font-weight: 700;
+    color:#fff; 
+}
+.bannertext p{
+ padding: 0px 200px;
+    font-family: inter;
+font-size: 16px;
+font-weight: 400;
+color:#fff;
+line-height: 26px;
+}
+.bannertext a{
+    padding: 15px 42px;
+    margin-top: 20px;
+    background: #6A4DF4;
+    color:#fff;
+    font-size: 20px;
+    font-family: inter;
+    font-weight: 600;
+line-height: 26px;
+border-radius: 10px;
+}
+/* Banner Part End */
+/* Counter Part Start  */
+#counterpart {
+    padding: 165px 12px;
+}
+.lefttext h4{
+    font-family: inter;
+    font-size: 25px;
+    font-weight: 500;
+    color:#6A4DF4;
+    line-height: 120%; 
+}
+.lefttext h3{
+    font-family: inter;
+    font-size: 35px;
+    font-weight: 600;
+    color:#151515;
+    line-height: auto;
+}
+.counteritem h3{
+    font-family: inter;
+    font-size: 50px;
+    font-weight: 700;
+    color:#151515;
+    line-height: auto;
+}
+.counteritem h4{
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 500;
+    color:#737373;
+}
+.extraBg{
+    background: #E0FFF9;
+    padding: 80px 50px;
+    border-radius: 20px;
+}
+/* Counter Part End */
+/* Service Part start  */
+#servicepart{
+    padding: 50px 0px;
+}
+.service h3{
+    font-family: inter;
+    font-size: 45px;
+    font-weight: 700;
+    color:#151515; 
+}
+.service p{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 400;
+    color:#737373;
+    line-height: 26px;
+    padding: 30px 50px; 
+}
+.serviceitem{
+    padding: 70px ;
+    text-align: center;
+   transition: .4s;
+    margin-top: 50px;
+}
+.servicetext h3{
+    padding: 30px 0px;
+    font-family: inter;
+    font-size: 25px;
+    font-weight: 700;
+    color:#151515;
+    line-height: auto;
+}
+.servicetext p{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 400;
+    color:#737373;
+    line-height: 26px;
+   
+}
+.serviceitem:hover{
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    }
+/* service Part End  */
+/* Recent Part Start  */
+#recentpart{
+    padding: 50px 0px;
+    background-color: #F3F3F3;
+}
+.recent h1{
+    font-family: inter;
+    font-size: 45px;
+    font-weight: 700;
+    color:#151515; 
+}
+.recent p{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 400;
+    color:#737373;
+    line-height: 26px;
+    padding: 30px 100px; 
+}
+.recentitem{
+   
+}
+.recenttext{
+    padding: 20px 0;
+    background: #fff;
+}
+
+/* Recent Part End  */
+/* Recent Part Start  */
+#angencpart{
+    padding: 100px 0;
+}
+.angenctext h3{
+    font-family: inter;
+    font-size: 45px;
+    font-weight: 700;
+    color:#151515; 
+    padding: 0px 200px;
+    line-height: auto;
+}
+.angenctext p{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 400;
+    color:#737373;
+    line-height: 26px;
+    padding: 30px 80px; 
+   
+}
+.angencicon{
+    padding: 20px 0;
+}
+
+ /* Recent Part End  */
+ /* Reviews Part Start  */
+ #reviewspart{
+    padding: 100px 0;
+ }
+ .reviewtext h3{
+    font-family: inter;
+    font-size: 45px;
+    font-weight: 700;
+    color:#151515; 
+    padding: 0px 200px;
+    line-height: auto;
+ }
+ .reviewtext p{
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 400;
+    color:#737373;
+    line-height: 26px;
+    padding: 30px 160px; 
+ }
+
+    .quotesitem:hover{
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        border-radius: 20px;
+ }
+ .reviewer{
+    display: flex;
+  
+ }
+ .avater{
+    width: 47px;
+    height: 47px;
+    padding: 20px 0;
+    
+ }
+ 
+ .reviewname h3{
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 600;
+    color:#151515; 
+    line-height: 120%;
+    padding: 10px 20px;
+ }
+
+ /* Contact Part start  */
+ #contactpart{
+    padding: 150px 0;
+    background: #DCDCDC;
+
+ }
+ .contactArea{
+    padding: 25px;
+    background: #FFFFFF;
+    border-radius: 10px;
+ }
+ .contactArea h3{
+    font-family: inter;
+    font-size: 30px;
+    font-weight: 700;
+    color:#151515; 
+    text-align: center;
+ }
+ .myinput{
+padding: 15px;
+ }
+ .frmBtn{
+    background: #6A4DF4;
+    color: #fff;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+ }
+   /* Counter Part end  */
+ /* Reviews Part End  */
+/* Header Part Start  */
+/* Header Part End  */
+
+
+
